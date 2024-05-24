@@ -1,0 +1,8 @@
+./sensor -t 2 -p pipe-nominal -s 1 -f temperatura.txt
+./sensor -t 2 -p pipe-nominal -s 1 -f temperatura2.txt
+
+./sensor -s 2 -t 4 -f ph1.txt -p pipe-nominal
+./sensor -s 2 -t 4 -f ph.txt -p pipe-nominal
+
+./monitor -t tempA.txt -h phA.txt -b 10 -p pipe-nominal
+./monitor -t tempB.txt -h phB.txt -b 10 -p pipe-nominal
