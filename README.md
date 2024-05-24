@@ -1,0 +1,1 @@
+Este proyecto implementa un sistema de comunicación y sincronización entre procesos mediante el uso de tuberías (pipes) y semáforos. El sistema consta de dos componentes principales: sensores y monitores, que interactúan para simular la recolección y procesamiento de datos de sensores de temperatura y pH.
